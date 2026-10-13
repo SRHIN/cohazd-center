@@ -331,109 +331,32 @@
 <body>
 
   <!-- ========================================== -->
-  <!-- 1. OFFICIAL SRHIN HEADER                   -->
+  <!-- 1. CLEANED COHAZD HEADER                   -->
   <!-- ========================================== -->
   <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-all font-['Manrope',sans-serif]">
-    <!-- Top Utility Bar: Regional Selector -->
-    <div class="border-b border-slate-100 bg-slate-50/80 text-xs font-body text-slate-600">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 flex justify-end items-center h-8">
-        <div class="relative" id="srhinRegionDropdown">
-          <button type="button" id="srhinRegionBtn" aria-expanded="false" class="inline-flex items-center gap-1.5 font-medium hover:text-[#002190] transition py-1">
-            <span>SRHIN Global</span>
-            <span class="material-symbols-outlined text-sm transition-transform duration-200" id="srhinRegionChevron">expand_more</span>
-          </button>
-          <div id="srhinRegionMenu" class="hidden absolute right-0 top-full mt-1 w-44 bg-white border border-slate-200 rounded-xl shadow-lg py-1.5 z-50">
-            <a href="https://srhin.org/" class="block px-4 py-2 hover:bg-slate-50 hover:text-[#002190] font-medium transition">SRHIN Africa</a>
-            <a href="http://sierraleone.srhin.org" target="_blank" rel="noopener noreferrer" class="block px-4 py-2 hover:bg-slate-50 hover:text-[#002190] font-medium transition">SRHIN Sierra Leone</a>
-            <a href="http://uganda.srhin.org" target="_blank" rel="noopener noreferrer" class="block px-4 py-2 hover:bg-slate-50 hover:text-[#002190] font-medium transition">SRHIN Uganda</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Main Navigation Bar -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       <div class="flex items-center justify-between h-20">
         
         <!-- Brand Logo -->
-        <a href="https://srhin.org/" class="flex-shrink-0 flex items-center">
+        <a href="#" class="flex-shrink-0 flex items-center">
           <img src="https://srhin.org/wp-content/uploads/2023/02/Logo-with-horizontal-text-colour@4x.png" alt="Slum and Rural Health Initiative" class="h-6 sm:h-11 max-w-[150px] sm:max-w-[220px] w-auto object-contain">
         </a>
 
         <!-- Desktop Nav Items -->
         <nav class="hidden lg:flex items-center space-x-1 font-body text-[15px] font-medium text-slate-700">
-          <a href="https://srhin.org/" class="px-3.5 py-2 rounded-lg hover:text-[#002190] transition">Home</a>
-
-          <!-- Dropdown: About Us -->
-          <div class="relative group">
-            <button type="button" class="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg group-hover:text-[#002190] transition">
-              <span>About Us</span>
-              <span class="material-symbols-outlined text-base transition-transform group-hover:rotate-180 duration-200">expand_more</span>
-            </button>
-            <div class="absolute left-0 top-full hidden group-hover:block group-focus-within:block w-56 pt-2 z-50">
-              <div class="bg-white border border-slate-200 rounded-2xl shadow-xl py-2 overflow-hidden">
-                <a href="https://srhin.org/our-values/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">Our Values</a>
-                <a href="https://srhin.org/leadership-team/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">Our Team</a>
-                <a href="https://srhin.org/global-advisory-board/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">Global Advisory Board</a>
-                <a href="https://srhin.org/anthem-and-pledge/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">Our Voice &amp; Commitment</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dropdown: Work With Us -->
-          <div class="relative group">
-            <button type="button" class="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg group-hover:text-[#002190] transition">
-              <span>Work With Us</span>
-              <span class="material-symbols-outlined text-base transition-transform group-hover:rotate-180 duration-200">expand_more</span>
-            </button>
-            <div class="absolute left-0 top-full hidden group-hover:block group-focus-within:block w-52 pt-2 z-50">
-              <div class="bg-white border border-slate-200 rounded-2xl shadow-xl py-2 overflow-hidden">
-                <a href="https://srhin.org/our-work/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">Our Work</a>
-                <a href="https://srhin.org/career/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">Join Our Team</a>
-                <a href="https://srhin.org/partner-with-us/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">Partner With Us</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dropdown: Insights & Impact -->
-          <div class="relative group">
-            <button type="button" class="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg group-hover:text-[#002190] transition">
-              <span>Insights &amp; Impact</span>
-              <span class="material-symbols-outlined text-base transition-transform group-hover:rotate-180 duration-200">expand_more</span>
-            </button>
-            <div class="absolute left-0 top-full hidden group-hover:block group-focus-within:block w-52 pt-2 z-50">
-              <div class="bg-white border border-slate-200 rounded-2xl shadow-xl py-2 overflow-hidden">
-                <a href="https://srhin.org/our-impact/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">Our Impact</a>
-                <a href="https://srhin.org/blog-database/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">News &amp; Blog</a>
-                <a href="https://srhin.org/stories-of-impact/" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">Stories of Impact</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Dropdown: Research Centers (COHAZD Active) -->
-          <div class="relative group">
-            <button type="button" class="inline-flex items-center gap-1 px-3.5 py-2 rounded-lg group-hover:text-[#002190] transition">
-              <span>Research Centers</span>
-              <span class="material-symbols-outlined text-base transition-transform group-hover:rotate-180 duration-200">expand_more</span>
-            </button>
-            <div class="absolute left-0 top-full hidden group-hover:block group-focus-within:block w-56 pt-2 z-50">
-              <div class="bg-white border border-slate-200 rounded-2xl shadow-xl py-2 overflow-hidden">
-                <a href="https://alpha.srhin.org" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">ALPHA</a>
-                <a href="https://prime.srhin.org" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">PRIME</a>
-                <a href="https://mhile.srhin.org" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">MHILE</a>
-                <a href="https://cohazd.srhin.org" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] font-semibold text-[#002190] transition">COHAZD</a>
-                <a href="https://cempher.srhin.org" class="block px-4 py-2.5 text-sm hover:bg-slate-50 hover:text-[#002190] transition">CEMPHER</a>
-              </div>
-            </div>
-          </div>
-
-          <a href="https://srhin.org/contact-us/" class="px-3.5 py-2 rounded-lg hover:text-[#002190] transition">Contact</a>
+          <a href="#" class="px-3.5 py-2 rounded-lg hover:text-[#002190] transition">Home</a>
+          <a href="#about" class="px-3.5 py-2 rounded-lg hover:text-[#002190] transition">About</a>
+          <a href="#focus-areas" class="px-3.5 py-2 rounded-lg hover:text-[#002190] transition">Focus Areas</a>
+          <a href="#programs" class="px-3.5 py-2 rounded-lg hover:text-[#002190] transition">Programs</a>
+          <a href="#insights" class="px-3.5 py-2 rounded-lg hover:text-[#002190] transition">Insights</a>
+          <a href="#team" class="px-3.5 py-2 rounded-lg hover:text-[#002190] transition">Team</a>
+          <a href="#contact" class="px-3.5 py-2 rounded-lg hover:text-[#002190] transition">Contact</a>
         </nav>
 
-        <!-- Right: Donate CTA Button & Mobile Trigger -->
+        <!-- Right: Contact CTA Button -->
         <div class="flex items-center gap-3">
-          <a href="https://srhin.org/donate/" class="hidden sm:inline-flex items-center justify-center bg-[#002190] hover:bg-[#001766] text-white font-semibold text-sm px-5 py-2.5 rounded-full transition duration-150 shadow-sm">
-            Donate Now
+          <a href="mailto:hello@srhin.org" class="hidden sm:inline-flex items-center justify-center bg-[#002190] hover:bg-[#001766] text-white font-semibold text-sm px-5 py-2.5 rounded-full transition duration-150 shadow-sm">
+            Contact Center
           </a>
 
           <button type="button" id="srhinMobileToggle" aria-label="Toggle Navigation Menu" class="lg:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100 transition focus:outline-none">
@@ -446,75 +369,27 @@
 
     <!-- Mobile Drawer Menu -->
     <div id="srhinMobileMenu" class="hidden lg:hidden border-t border-slate-200 bg-white px-6 py-6 space-y-4 font-body text-base max-h-[85vh] overflow-y-auto shadow-xl">
-      <a href="https://srhin.org/" class="block font-medium py-2 border-b border-slate-100">Home</a>
-
-      <details class="group border-b border-slate-100 pb-2">
-        <summary class="flex justify-between items-center py-2 font-medium cursor-pointer list-none">
-          <span>About Us</span>
-          <span class="material-symbols-outlined group-open:rotate-180 transition">expand_more</span>
-        </summary>
-        <div class="pl-4 py-2 space-y-2 text-sm text-slate-600">
-          <a href="https://srhin.org/our-values/" class="block py-1 hover:text-[#002190]">Our Values</a>
-          <a href="https://srhin.org/leadership-team/" class="block py-1 hover:text-[#002190]">Our Team</a>
-          <a href="https://srhin.org/global-advisory-board/" class="block py-1 hover:text-[#002190]">Global Advisory Board</a>
-          <a href="https://srhin.org/anthem-and-pledge/" class="block py-1 hover:text-[#002190]">Our Voice &amp; Commitment</a>
-        </div>
-      </details>
-
-      <details class="group border-b border-slate-100 pb-2">
-        <summary class="flex justify-between items-center py-2 font-medium cursor-pointer list-none">
-          <span>Work With Us</span>
-          <span class="material-symbols-outlined group-open:rotate-180 transition">expand_more</span>
-        </summary>
-        <div class="pl-4 py-2 space-y-2 text-sm text-slate-600">
-          <a href="https://srhin.org/our-work/" class="block py-1 hover:text-[#002190]">Our Work</a>
-          <a href="https://srhin.org/career/" class="block py-1 hover:text-[#002190]">Join Our Team</a>
-          <a href="https://srhin.org/partner-with-us/" class="block py-1 hover:text-[#002190]">Partner With Us</a>
-        </div>
-      </details>
-
-      <details class="group border-b border-slate-100 pb-2">
-        <summary class="flex justify-between items-center py-2 font-medium cursor-pointer list-none">
-          <span>Insights &amp; Impact</span>
-          <span class="material-symbols-outlined group-open:rotate-180 transition">expand_more</span>
-        </summary>
-        <div class="pl-4 py-2 space-y-2 text-sm text-slate-600">
-          <a href="https://srhin.org/our-impact/" class="block py-1 hover:text-[#002190]">Our Impact</a>
-          <a href="https://srhin.org/blog-database/" class="block py-1 hover:text-[#002190]">News &amp; Blog</a>
-          <a href="https://srhin.org/stories-of-impact/" class="block py-1 hover:text-[#002190]">Stories of Impact</a>
-        </div>
-      </details>
-
-      <details class="group border-b border-slate-100 pb-2">
-        <summary class="flex justify-between items-center py-2 font-medium cursor-pointer list-none">
-          <span>Research Centers</span>
-          <span class="material-symbols-outlined group-open:rotate-180 transition">expand_more</span>
-        </summary>
-        <div class="pl-4 py-2 space-y-2 text-sm text-slate-600">
-          <a href="https://alpha.srhin.org" class="block py-1 hover:text-[#002190]">ALPHA</a>
-          <a href="https://prime.srhin.org" class="block py-1 hover:text-[#002190]">PRIME</a>
-          <a href="https://mhile.srhin.org" class="block py-1 hover:text-[#002190]">MHILE</a>
-          <a href="https://cohazd.srhin.org" class="block py-1 font-semibold text-[#002190]">COHAZD</a>
-          <a href="https://cempher.srhin.org" class="block py-1 hover:text-[#002190]">Cempher</a>
-        </div>
-      </details>
-
-      <a href="https://srhin.org/contact-us/" class="block font-medium py-2 border-b border-slate-100">Contact</a>
-
+      <a href="#" class="block font-medium py-2 border-b border-slate-100">Home</a>
+      <a href="#about" class="block font-medium py-2 border-b border-slate-100">About</a>
+      <a href="#focus-areas" class="block font-medium py-2 border-b border-slate-100">Focus Areas</a>
+      <a href="#programs" class="block font-medium py-2 border-b border-slate-100">Programs</a>
+      <a href="#insights" class="block font-medium py-2 border-b border-slate-100">Insights</a>
+      <a href="#team" class="block font-medium py-2 border-b border-slate-100">Team</a>
+      <a href="#contact" class="block font-medium py-2 border-b border-slate-100">Contact</a>
+      
       <div class="pt-2">
-        <a href="https://srhin.org/donate/" class="w-full inline-flex items-center justify-center bg-[#002190] hover:bg-[#001766] text-white font-semibold text-sm px-5 py-3 rounded-full transition duration-150 shadow-sm">
-          Donate Now
+        <a href="mailto:hello@srhin.org" class="w-full inline-flex items-center justify-center bg-[#002190] hover:bg-[#001766] text-white font-semibold text-sm px-5 py-3 rounded-full transition duration-150 shadow-sm">
+          Contact Center
         </a>
       </div>
     </div>
   </header>
 
   <!-- ========================================== -->
-  <!-- 2. HERO SECTION (High-Contrast Clean White Vignette) -->
+  <!-- 2. HERO SECTION                            -->
   <!-- ========================================== -->
   <section class="py-44 lg:py-60 px-6 bg-white border-b border-slate-200 relative overflow-hidden" style="background-image: url('https://srhin.org/wp-content/uploads/2026/06/8.jpeg'); background-repeat: repeat-x; background-size: auto 100%; background-position: center;">
-    <!-- Strong gradient white vignette to completely dull the blue and boost text contrast -->
-    <div class="absolute inset-0 bg-gradient-to-r from-white/10 via-white/20 to-white/10"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/85"></div>
 
     <div class="max-w-6xl mx-auto space-y-8 relative z-10 text-left">
       <div class="max-w-[70px] sm:max-w-[95px]">
@@ -534,7 +409,7 @@
   <!-- ========================================== -->
   <!-- 3. ABOUT THE CENTER                        -->
   <!-- ========================================== -->
-  <section class="py-24 px-6 max-w-6xl mx-auto">
+  <section id="about" class="py-24 px-6 max-w-6xl mx-auto">
     <div class="grid lg:grid-cols-12 gap-12 items-center bg-white rounded-3xl border border-slate-200/80 p-8 sm:p-14 shadow-sm">
       <div class="lg:col-span-7 space-y-6">
         <span class="inline-block px-4 py-1.5 rounded-full bg-[#002190]/10 text-[#002190] text-xs font-bold uppercase tracking-wider font-body">About COHAZD</span>
@@ -550,9 +425,9 @@
   </section>
 
   <!-- ========================================== -->
-  <!-- 4. KEY FOCUS AREAS (Horizontal Zig-Zag Scroller w/ Alternating Colors & Infinite Loop) -->
+  <!-- 4. KEY FOCUS AREAS                         -->
   <!-- ========================================== -->
-  <section class="py-24 bg-slate-50 border-t border-b border-slate-100 px-6 relative overflow-hidden">
+  <section id="focus-areas" class="py-24 bg-slate-50 border-t border-b border-slate-100 px-6 relative overflow-hidden">
     <div class="max-w-7xl mx-auto space-y-12">
       
       <div class="text-center space-y-2">
@@ -621,7 +496,7 @@
   <!-- ========================================== -->
   <!-- 5. PROGRAMS & INITIATIVES                  -->
   <!-- ========================================== -->
-  <section class="py-24 px-6 max-w-6xl mx-auto space-y-12">
+  <section id="programs" class="py-24 px-6 max-w-6xl mx-auto space-y-12">
     <div class="space-y-2 text-center md:text-left">
       <span class="text-xs uppercase font-bold tracking-wider text-[#002190] font-body">Impact in Action</span>
       <h2 class="text-3xl md:text-4xl font-heading font-semibold text-slate-900">Programs &amp; Initiatives</h2>
@@ -733,10 +608,10 @@
     </div>
   </section>
 
-<!-- ========================================== -->
-  <!-- 7. BLOG & INTERNAL NEWS (DYNAMIC API)      -->
   <!-- ========================================== -->
-  <section class="py-20 px-6 max-w-6xl mx-auto space-y-12">
+  <!-- 7. BLOGS & INTERNAL NEWS                   -->
+  <!-- ========================================== -->
+  <section id="insights" class="py-20 px-6 max-w-6xl mx-auto space-y-12">
     <div class="space-y-1">
       <div class="flex items-center gap-2 text-xs uppercase tracking-wider text-[#002190] font-bold font-body">
         <span class="w-6 h-0.5 bg-[#002190]"></span>
@@ -766,7 +641,7 @@
   <!-- ========================================== -->
   <!-- 8. TEAM SECTION (COHAZD Experts)           -->
   <!-- ========================================== -->
-  <section class="py-20 bg-slate-50 border-t border-slate-100 px-6">
+  <section id="team" class="py-20 bg-slate-50 border-t border-slate-100 px-6">
     <div class="max-w-6xl mx-auto space-y-6">
       <div class="space-y-1">
         <div class="flex items-center gap-2 text-xs uppercase tracking-wider text-[#002190] font-bold font-body">
@@ -973,7 +848,7 @@
   <!-- ========================================== -->
   <!-- 10. OFFICIAL SRHIN FOOTER                  -->
   <!-- ========================================== -->
-  <footer class="bg-white border-t border-slate-200 text-slate-700 font-sans text-sm">
+  <footer id="contact" class="bg-white border-t border-slate-200 text-slate-700 font-sans text-sm">
     <div class="max-w-7xl mx-auto px-6 py-16">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10">
         
@@ -1504,75 +1379,71 @@
   </script>
 
   <!-- Dynamic WordPress COHAZD Blog Fetcher -->
-<script>
-  document.addEventListener("DOMContentLoaded", async function () {
-    const gridContainer = document.getElementById("cohazd-dynamic-blogs-grid");
-    const moreBtnWrapper = document.getElementById("cohazd-more-blogs-btn-wrapper");
-    
-    if (!gridContainer) return;
-
-    try {
-      // 1. Fetch category ID for 'cohazd' to ensure accurate querying
-      const catResponse = await fetch("https://srhin.org/wp-json/wp/v2/categories?slug=cohazd");
-      const categories = await catResponse.json();
+  <script>
+    document.addEventListener("DOMContentLoaded", async function () {
+      const gridContainer = document.getElementById("cohazd-dynamic-blogs-grid");
+      const moreBtnWrapper = document.getElementById("cohazd-more-blogs-btn-wrapper");
       
-      let categoryParam = "";
-      if (categories && categories.length > 0) {
-        categoryParam = `&categories=${categories[0].id}`;
-      }
+      if (!gridContainer) return;
 
-      // 2. Fetch the 3 latest posts for COHAZD (including featured media)
-      const postsResponse = await fetch(`https://srhin.org/wp-json/wp/v2/posts?per_page=3${categoryParam}&_embed=true`);
-      const posts = await postsResponse.json();
-
-      if (!posts || posts.length === 0) {
-        gridContainer.innerHTML = `<div class="col-span-full text-center py-10 text-slate-500 text-sm font-body">No recent blog posts found for COHAZD at the moment.</div>`;
-        return;
-      }
-
-      // 3. Clear container and render posts matching COHAZD's exact styling
-      gridContainer.innerHTML = "";
-      
-      posts.forEach(post => {
-        let imageUrl = "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=600&q=80"; // Fallback image
-        if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0].source_url) {
-          imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
+      try {
+        const catResponse = await fetch("https://srhin.org/wp-json/wp/v2/categories?slug=cohazd");
+        const categories = await catResponse.json();
+        
+        let categoryParam = "";
+        if (categories && categories.length > 0) {
+          categoryParam = `&categories=${categories[0].id}`;
         }
 
-        const articleHTML = `
-          <article class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm flex flex-col justify-between p-6 space-y-5">
-            <div class="h-48 w-full rounded-2xl overflow-hidden bg-slate-100">
-              <img src="${imageUrl}" alt="${post.title.rendered}" class="w-full h-full object-cover">
-            </div>
-            <div class="space-y-2">
-              <h3 class="text-lg font-heading font-semibold text-slate-900 leading-snug">
-                <a href="${post.link}" target="_blank" rel="noopener" class="hover:text-[#002190] transition">
-                  ${post.title.rendered}
+        const postsResponse = await fetch(`https://srhin.org/wp-json/wp/v2/posts?per_page=3${categoryParam}&_embed=true`);
+        const posts = await postsResponse.json();
+
+        if (!posts || posts.length === 0) {
+          gridContainer.innerHTML = `<div class="col-span-full text-center py-10 text-slate-500 text-sm font-body">No recent blog posts found for COHAZD at the moment.</div>`;
+          return;
+        }
+
+        gridContainer.innerHTML = "";
+        
+        posts.forEach(post => {
+          let imageUrl = "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=600&q=80";
+          if (post._embedded && post._embedded['wp:featuredmedia'] && post._embedded['wp:featuredmedia'][0].source_url) {
+            imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
+          }
+
+          const articleHTML = `
+            <article class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm flex flex-col justify-between p-6 space-y-5">
+              <div class="h-48 w-full rounded-2xl overflow-hidden bg-slate-100">
+                <img src="${imageUrl}" alt="${post.title.rendered}" class="w-full h-full object-cover">
+              </div>
+              <div class="space-y-2">
+                <h3 class="text-lg font-heading font-semibold text-slate-900 leading-snug">
+                  <a href="${post.link}" target="_blank" rel="noopener" class="hover:text-[#002190] transition">
+                    ${post.title.rendered}
+                  </a>
+                </h3>
+              </div>
+              <div>
+                <a href="${post.link}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs font-semibold text-[#002190] hover:underline">
+                  <span>Read More &gt;</span>
                 </a>
-              </h3>
-            </div>
-            <div>
-              <a href="${post.link}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs font-semibold text-[#002190] hover:underline">
-                <span>Read More &gt;</span>
-              </a>
-            </div>
-          </article>
-        `;
+              </div>
+            </article>
+          `;
 
-        gridContainer.insertAdjacentHTML('beforeend', articleHTML);
-      });
+          gridContainer.insertAdjacentHTML('beforeend', articleHTML);
+        });
 
-      // 4. Show the "More Blogs" button wrapper since posts loaded successfully
-      if (moreBtnWrapper) {
-        moreBtnWrapper.classList.remove('hidden');
+        if (moreBtnWrapper) {
+          moreBtnWrapper.classList.remove('hidden');
+        }
+
+      } catch (error) {
+        console.error("Error fetching dynamic COHAZD blogs:", error);
+        gridContainer.innerHTML = `<div class="col-span-full text-center py-10 text-slate-500 text-sm font-body">Unable to load latest posts. Please visit our <a href="https://srhin.org/blog-database/?category=cohazd" class="text-[#002190] underline font-semibold">Blog Database</a>.</div>`;
       }
-
-    } catch (error) {
-      console.error("Error fetching dynamic COHAZD blogs:", error);
-      gridContainer.innerHTML = `<div class="col-span-full text-center py-10 text-slate-500 text-sm font-body">Unable to load latest posts. Please visit our <a href="https://srhin.org/blog-database/?category=cohazd" class="text-[#002190] underline font-semibold">Blog Database</a>.</div>`;
-    }
-  });
-</script>
+    });
+  </script>
 
 </body>
 </html>
